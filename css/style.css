@@ -5,7 +5,7 @@
 * {box-sizing: border-box;margin: 0; font-family: 'Cabin', sans-serif;  background-color: transparent; color: inherit;}
 html { margin:0; padding: 0; scroll-behavior: smooth;overflow-x: hidden;}
 body {position: relative;}
-body::after {border-right: solid #3c3c3c 4px;position: absolute;height: 100%;right: 95%;content: "";display: block;top: 0;z-index: 1;}   
+body::after {border-right: solid #436e90 4px;position: absolute;height: 100%;right: 95%;content: "";display: block;top: 0;z-index: 1;}   
 
 /* headings */ 
 h1, h2, h3, h4, h5, h6 {font-family: 'FilsonPro';} 
@@ -75,13 +75,13 @@ main > .index-header span {animation: dotflash 3s infinite;}
 #index-artists li {   display: flex;flex-direction: row;flex-wrap: wrap;max-width: 1434px;min-height: 400px;align-items: stretch;z-index: 3;width: 100%;margin: 2vh 0em 15vh 0em;}
 #index-artists li:nth-of-type(1) {background: none;border: none;justify-content: center;margin: 0 0 6em 0;padding: 0;min-height: 0;}
 #index-artists h2 {font-size: 4em;letter-spacing: -2px;color: #313131e6;text-transform: uppercase;text-decoration: underline #313131;}
-#index-artists article {padding-left: 6em;order: 2;flex: 1 50%;display: flex;justify-content: center;flex-direction: column;border-right: solid 2px #436e90;padding-right: 4vw;}
+#index-artists article {padding-left: 6em;order: 2;flex: 1 50%;display: flex;justify-content: center;flex-direction: column;/*! border-right: solid 2px #436e90; */padding-right: 4vw;}
 #index-artists h3 {font-size: 4.3em;letter-spacing: -4px;-webkit-text-stroke: 2px #436e90;color: transparent;padding: 0 0 0.2em 0em;}
 #index-artists hr {width: 113px;margin: 0.2em 0 1em 0;height: 6px;border: none;background: #e5caa5;}
 #index-artists p {font-size: 1.2em;max-width: 608px;text-transform: none;}
 #index-artists aside {flex: 1 50%; max-width: 400px;position: relative;overflow: hidden;filter: drop-shadow(0px 4px 12px #b3b3b3);height: 100%;width: 100%;border-left: #436e90 solid 5px;border-right: #436e90 solid 5px;}
 #index-artists img {object-fit: cover;display: block;width: 100%;height: 100%;position: relative;min-width: 400px;max-height: 400px;}
-#index-artists li:nth-of-type(3) article {align-items: flex-end; text-align: right;padding-right: 6em;border-left: solid 2px #436e90;border-right: none;padding-left: 4vw;}
+#index-artists li:nth-of-type(3) article {align-items: flex-end; text-align: right;padding-right: 6em;/*! border-left: solid 2px #436e90; */border-right: none;padding-left: 4vw;}
 #index-artists li:nth-of-type(3) p {text-transform: none;mix-blend-mode: normal;}
 #index-artists li:nth-of-type(3) aside {height: auto;order:2;display: flex;} 
 
